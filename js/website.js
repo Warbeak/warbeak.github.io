@@ -11,7 +11,8 @@ r();for(var a=0;a<b.elems.length;a++){var e=v(b.elems[a]);c.push(e)}window.addEv
 
 var scroll = new SmoothScroll('.anchor-link', {
   speed: 750,
-  easing: 'easeInOutQuad'
+  easing: 'easeInOutQuad',
+  offset: 50
 });
 
 //Canvas for the stars!

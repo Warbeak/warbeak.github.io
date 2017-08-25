@@ -67,6 +67,22 @@
     text-align: right;
 }
 
+footer {
+    min-height: 30rem;
+}
+
+footer img {
+    bottom: -60px;
+}
+
+
+.carousel img {
+    display: block;
+    height: 800px;
+}
+
+
+
 @media (max-width: 900px) {
     .about {
     }
