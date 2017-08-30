@@ -159,7 +159,7 @@
 .btf {
     position: relative;
     margin: -1px 0 -5rem 0;
-
+overflow-y: hidden;
     z-index: 100;
     width: 100%;
     min-height: 100vh;
