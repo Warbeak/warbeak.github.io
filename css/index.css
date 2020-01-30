@@ -4,18 +4,6 @@
   min-height: 90vh;
 }
 
-.quote {
-  color: hsl(243.8, 48.5%, 91.9%);
-
-  margin-top: 5%;
-
-  z-index: 100;
-
-  font-style: italic;
-
-  text-align: center;
-}
-
 .header {
   position: absolute;
   top: 0;
@@ -517,6 +505,18 @@ footer {
   z-index: -1;
   min-height: 20rem;
   overflow: hidden;
+}
+
+footer .quote {
+  color: hsl(243.8, 48.5%, 91.9%);
+
+  margin-top: 5%;
+
+  z-index: 100;
+
+  font-style: italic;
+
+  text-align: center;
 }
 
 footer img {
