@@ -4,6 +4,18 @@
   min-height: 90vh;
 }
 
+.quote {
+  color: hsl(243.8, 48.5%, 91.9%);
+
+  margin-top: 5%;
+
+  z-index: 100;
+
+  font-style: italic;
+
+  text-align: center;
+}
+
 .header {
   position: absolute;
   top: 0;
