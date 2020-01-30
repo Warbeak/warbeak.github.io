@@ -1,216 +1,290 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Portfolio</title>
 
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#104B85">
-    <meta name="msapplication-navbutton-color" content="#104B85">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#104B85" />
+    <meta name="msapplication-navbutton-color" content="#104B85" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,600">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/index_801.css" media="(min-width: 801px)">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,600"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="css/index_801.css"
+      media="(min-width: 801px)"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="atf">
-        <div class="header">
-            <a class="anchor-link" data-scroll href="#about">About</a>
-            <a class="anchor-link" data-scroll href="#work">Work</a>
-            <a class="anchor-link" data-scroll href="#contact">Contact</a>
+      <div class="header">
+        <a class="anchor-link" data-scroll href="#about">About</a>
+        <a class="anchor-link" data-scroll href="#work">Work</a>
+        <a class="anchor-link" data-scroll href="#contact">Contact</a>
+      </div>
+      <div class="welcome">
+        <span>Hi</span>
+        <div>
+          <span>I'm</span>
+          <span>Anastasia</span>
+          <span>Ostaskova</span>
+          <h1>Designer</h1>
         </div>
-        <div class="welcome">
-            <span>Hi</span>
-            <div>
-                <span>I'm</span>
-                <span>Anastasia</span>
-                <span>Ostaskova</span>
-                <h1>Designer</h1>
-            </div>
-        </div>
-        <canvas class="Scene-stars" role="presentation"></canvas>
-        <img class="parallax-img rellax" src="img/one.svg" data-rellax-speed="-7" />
-        <img class="parallax-img rellax" src="img/two.svg" data-rellax-speed="-6" />
-        <img class="parallax-img rellax" src="img/three.svg" data-rellax-speed="-5" />
-        <img class="parallax-img rellax" src="img/four.svg" data-rellax-speed="-4" />
-        <img class="parallax-img" src="img/five.svg" />
+      </div>
+      <canvas class="Scene-stars" role="presentation"></canvas>
+      <img
+        class="parallax-img rellax"
+        src="img/one.svg"
+        data-rellax-speed="-7"
+      />
+      <img
+        class="parallax-img rellax"
+        src="img/two.svg"
+        data-rellax-speed="-6"
+      />
+      <img
+        class="parallax-img rellax"
+        src="img/three.svg"
+        data-rellax-speed="-5"
+      />
+      <img
+        class="parallax-img rellax"
+        src="img/four.svg"
+        data-rellax-speed="-4"
+      />
+      <img class="parallax-img" src="img/five.svg" />
     </div>
     <div class="btf">
-        <div class="container">
-            <div class="chevron"></div>
-            <div class="chevron"></div>
-            <div class="chevron"></div>
+      <div class="container">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+      </div>
+      <div>
+        <h1 id="about">About</h1>
+        <div class="about">
+          <img src="img/portrait.png" />
+          <div class="card">
+            <p
+              >I’m a Vancouver based UX and UI designer, illustrator, animator
+              and 3d modeler with a background in biology and fintech. In the
+              digital age, the ability to digest massive amounts of data very
+              quickly but also in a seamless and fun way is an integral part of
+              any business, software and life. My Subtle colour changes, to
+              where components are within the software, to typography and
+              optimization of data are all skills that highly compliment my
+              illustrations and animations that are fun, unique, memorable and
+              will evoke the emotions your business wants to convey to it’s
+              consumers. Create a brand with me, update your company’s existing
+              style guide with creative changes, or dive into your data and
+              market research to develop your business into something truly
+              inventive and interactive.
+            </p>
+          </div>
         </div>
-        <div>
-            <h1 id="about">About</h1>
-            <div class="about">
-                <img src="img/portrait.png">
-                <div class="card">
-                    <p>I’m a Vancouver based web designer and illustrator with a background in biology and technology that’s
-                        working on bringing brands and ideas to life through aesthetic components. Focusing on user intractability,
-                        interfaces and ease of access, and at the same time allows me to develop a digital experience which
-                        creates lasting effects on users.</p>
+      </div>
+      <div>
+        <h1 id="work">Work</h1>
+        <div class="work-container">
+          <ul class="work-list">
+            <li class="work-list-item einstein">
+              <input type="checkbox" class="checkbox" id="einstein-checkbox" />
+              <label for="einstein-checkbox" class="work-list-click">
+                <div class="work-inner">
+                  <h2 class="work-title">Einstein Exchange</h2>
+                  <span class="work-detail work-role"
+                    >Chief Design Officer, UX & UI Designer</span
+                  >
+                  <span class="work-detail work-company"></span>
+                  <span class="work-detail work-date">∞</span>
                 </div>
-            </div>
-        </div>
-        <div>
-            <h1 id="work">Work</h1>
-            <div class="work-container">
-                <ul class="work-list">
-                    <li class="work-list-item">
-                        <label for="entourage-checkbox" class="work-list-click">
-                            <div class="work-inner">
-                                <h2 class="work-title">Entourage Bioscience</h2>
-                                <span class="work-detail work-role">Labratory Technician</span>
-                                <span class="work-detail work-company"></span>
-                                <span class="work-detail work-date">2015-2017</span>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="work-list-item">
-                        <input type="checkbox" class="checkbox" id="active-checkbox">
-                        <label for="active-checkbox" class="work-list-click">
-                            <div class="work-inner">
-                                <h2 class="work-title">Active Network</h2>
-                                <span class="work-detail work-role">Technology Support</span>
-                                <span class="work-detail work-company"></span>
-                                <span class="work-detail work-date">2016-Current</span>
-                            </div>
-                        </label>
-                        <div class="expanded">
-                            <ul>
-                                <span>
-                                    <i class="material-icons">format_quote</i>online event and activities registration management, and licensing software
-                                    management
-                                </span>
-                                <li>
-                                    <i class="material-icons">check_circle</i>Client support for web POS and ipso systems</li>
-                                <li>
-                                    <i class="material-icons">check_circle</i>Debugged PC's and ipos systems experiencing difficulties in loading system
-                                    or processing sales</li>
-                                <li>
-                                    <i class="material-icons">check_circle</i>Regulated environment of Canada tags, resources and outfitter realms
-                                    to ensure proper procedure of transactions and regulation knowledge
-                                </li>
-                                <li>
-                                    <i class="material-icons">check_circle</i>Collected and analyzed highly sensitive IP, server and personal information
-                                    to further assist clients and states/provinces during outages or errors</li>
-                                <li>
-                                    <i class="material-icons">check_circle</i>Consulted lower tiers of support on troubleshooting during work requests
-                                    that were found too complicated and difficult</li>
-                                <li>
-                                    <i class="material-icons">check_circle</i>Managed many different ticketing and servicing systems to create cohesive
-                                    management of troubleshooting issues</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="work-list-item">
-                        <label for="assam-checkbox" class="work-list-click">
-                            <div class="work-inner">
-                                <h2 class="work-title">Assam Tea Company</h2>
-                                <span class="work-detail work-role">Web Designer</span>
-                                <span class="work-detail work-company"></span>
-                                <span class="work-detail work-date">2011-2012</span>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="work-list-item">
-                        <label for="vidigami-checkbox" class="work-list-click">
-                            <div class="work-inner">
-                                <h2 class="work-title">Vidigami Media</h2>
-                                <span class="work-detail work-role">Web Designer, Illustrator</span>
-                                <span class="work-detail work-company"></span>
-                                <span class="work-detail work-date">2013-2014</span>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="work-list-item">
-                        <label for="pramana-checkbox" class="work-list-click">
-                            <div class="work-inner">
-                                <h2 class="work-title">Pramana Pharmaceuticals</h2>
-                                <span class="work-detail work-role">Designer, Medical Illustrations</span>
-                                <span class="work-detail work-company"></span>
-                                <span class="work-detail work-date">2016</span>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="work-list-item">
-                        <label for="inmed-checkbox" class="work-list-click">
-                            <div class="work-inner">
-                                <h2 class="work-title">InMed</h2>
-                                <span class="work-detail work-role">Web Designer, Development, UX</span>
-                                <span class="work-detail work-company"></span>
-                                <span class="work-detail work-date">2014-2015</span>
-                            </div>
-                        </label>
-                    </li>
-                    <li class="work-list-item">
-                        <input type="checkbox" class="checkbox" id="misc-checkbox">
-                        <label for="misc-checkbox" class="work-list-click">
-                            <div class="work-inner">
-                                <h2 class="work-title">Illustrations, Animations, and Sketches</h2>
-                                <span class="work-detail work-role">Designer, Illustrator</span>
-                                <span class="work-detail work-company"></span>
-                                <span class="work-detail work-date">∞</span>
-                            </div>
-                        </label>
-                        <div class="expanded">
-                            <ul>
-                                <li>
-                                    <i class="material-icons">check_circle</i>Random art and illustrations made throughout the years</li>
-                            </ul>
-                            <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "lazyLoad": true }'>
-                                <img src="img/udyr.jpg" />
-                                <img src="img/rengar.jpg" />
-                                <img src="img/fish.jpg" />
-                                <img src="img/mask.jpg" />
-                                <img src="img/mask1.jpg" />
-                                <img src="img/mask2.jpg" />
-                                <img src="img/1.jpg" />
-                                <img src="img/2.jpg" />
-                                <img src="img/3.jpg" />
-                                <img src="img/4.jpg" />
-                                <img src="img/5.jpg" />
-                                <img src="img/6.jpg" />
-                                <img src="img/7.jpg" />
-                                <img src="img/rengar.gif" />
-                                <img src="img/maggot.gif" />
-                                <img src="img/pizza.gif" />
-                                <img src="img/einstein1.png" />
-                                <img src="img/einstein2.jpg" />
-                                <img src="img/loader1.gif" />
-                                <img src="img/loader2.gif" />
-                                <img src="img/loader3.gif" />
-                            </div>
-                        </div>
-                    </li>
+              </label>
+              <div class="expanded">
+                <ul>
+                  <li>
+                    <span>•</span>Brought on to create a cohesive aesthetic and
+                    style-guides for the newly created platform. Brain-stormed
+                    closely with the CEO, product, development and
+                    quality-assurance teams to create wireframes, mockups and
+                    prototypes for various components and features within our
+                    desktop and mobile applications. Created branding assets to
+                    be used online and in real-world locations, including
+                    materials and illustrations for marketing campaigns, story
+                    boarding and animations for television adverts, vehicle
+                    vinyl wrapping, and game development for web and mobile
+                    platforms.
+                  </li>
+                  <li>
+                    <span>•</span>In on-going collaboration with the
+                    customer-support team to create new and update existing
+                    internal customer-support tools and administration console,
+                    according to their ever evolving customer-facing needs.
+                    Supported the Einstein Law team to properly portray our
+                    image in legal documentation, investor pitch-decks, and open
+                    house functions.
+                  </li>
+                  <li>
+                    <span>•</span>Worked hand-in-hand with internal and external
+                    merchants to gain valuable feedback on the flow of our
+                    various payment processors, purchase flows and third party
+                    payment providers.
+                  </li>
+                  <li>
+                    <span>•</span>Delegated work to external design and
+                    development teams, and closely supervised them to make sure
+                    that the work produced closely reflected our own internal
+                    style-guide and was in cohesion with our already existing
+                    product line.
+                  </li>
+                  <li>
+                    <span>•</span>Partipitated on daily market research to
+                    maintain a modern aesthetic and up-to-date feature set
+                    within our various environments.
+                  </li>
                 </ul>
-            </div>
+                <div
+                  class="carousel"
+                  data-flickity='{ "imagesLoaded": true, "percentPosition": false, "lazyLoad": true }'
+                >
+                  <img src="img/phone/Bitcoin selected.png" />
+                  <img src="img/phone/dashboard v1.PNG" />
+                  <img src="img/phone/pre sign in.png" />
+                  <img src="img/phone/Purchase - Credit Card.png" />
+                  <img src="img/phone/Startup Flow.png" />
+                  <img src="img/phone/transv2 min.png" />
+                  <img src="img/phone/wakanda fiw.png" />
+                  <img src="img/illustrations/concept1.png" />
+                  <img src="img/animations/animated (3).png" />
+                  <img src="img/animations/animated.png" />
+                  <img src="img/animations/animated2.png" />
+                  <img src="img/animations/carddec.png" />
+                  <video
+                    autoplay
+                    loop
+                    preload
+                    controls
+                    src="img/animations/finallargecut.mp4"
+                  ></video>
+                </div>
+              </div>
+            </li>
+            <li class="work-list-item inmed">
+              <label for="inmed-checkbox" class="work-list-click">
+                <div class="work-inner">
+                  <h2 class="work-title">InMed</h2>
+                  <span class="work-detail work-role"
+                    >Visual Designer, Illustrator</span
+                  >
+                  <span class="work-detail work-company"></span>
+                  <span class="work-detail work-date">2015-2017</span>
+                </div>
+              </label>
+            </li>
+            <li class="work-list-item pramana">
+              <label for="pramana-checkbox" class="work-list-click">
+                <div class="work-inner">
+                  <h2 class="work-title">Pramana Pharmaceuticals</h2>
+                  <span class="work-detail work-role"
+                    >Designer, Illustrator, Web Designer</span
+                  >
+                  <span class="work-detail work-company"></span>
+                  <span class="work-detail work-date">2014-2015</span>
+                </div>
+              </label>
+            </li>
+            <li class="work-list-item vidigami">
+              <label for="vidigami-checkbox" class="work-list-click">
+                <div class="work-inner">
+                  <h2 class="work-title">Vidigami Media</h2>
+                  <span class="work-detail work-role"
+                    >Designer, Illustrator, Web Designer</span
+                  >
+                  <span class="work-detail work-company"></span>
+                  <span class="work-detail work-date">2013-2014</span>
+                </div>
+              </label>
+            </li>
+            <li class="work-list-item assam">
+              <label for="assam-checkbox" class="work-list-click">
+                <div class="work-inner">
+                  <h2 class="work-title">Assam Tea Company</h2>
+                  <span class="work-detail work-role">Web Designer</span>
+                  <span class="work-detail work-company"></span>
+                  <span class="work-detail work-date">2012-2013</span>
+                </div>
+              </label>
+            </li>
+            <li class="work-list-item personal">
+              <input type="checkbox" class="checkbox" id="misc-checkbox" />
+              <label for="misc-checkbox" class="work-list-click">
+                <div class="work-inner">
+                  <h2 class="work-title">Assorted Commissions and Sketches</h2>
+                  <span class="work-detail work-role">Mixed medias</span>
+                  <span class="work-detail work-company"></span>
+                  <span class="work-detail work-date">∞</span>
+                </div>
+              </label>
+              <div class="expanded">
+                <div
+                  class="carousel"
+                  data-flickity='{ "imagesLoaded": true, "percentPosition": false, "lazyLoad": true }'
+                >
+                  <img src="img/udyr.jpg" />
+                  <img src="img/rengar.jpg" />
+                  <img src="img/fish.jpg" />
+                  <img src="img/mask.jpg" />
+                  <img src="img/mask1.jpg" />
+                  <img src="img/mask2.jpg" />
+                  <img src="img/1.jpg" />
+                  <img src="img/2.jpg" />
+                  <img src="img/3.jpg" />
+                  <img src="img/4.jpg" />
+                  <img src="img/5.jpg" />
+                  <img src="img/6.jpg" />
+                  <img src="img/7.jpg" />
+                  <img src="img/rengar.gif" />
+                  <img src="img/maggot.gif" />
+                  <img src="img/pizza.gif" />
+                  <img src="img/einstein1.png" />
+                  <img src="img/einstein2.jpg" />
+                  <img src="img/loader1.gif" />
+                  <img src="img/loader2.gif" />
+                  <img src="img/loader3.gif" />
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div>
-            <h1 id="contact">Contact</h1>
-            <div class="contact">
-                <i class="contact-email material-icons">email</i>
-                <h2>Email me at
-                    <a href="mailto:hossain.anastasia@gmail.com">
-                        <strong>hossain.anastasia</strong>@
-                        <strong>gmail</strong>.com</a>
-                </h2>
-            </div>
+      </div>
+      <div>
+        <h1 id="contact">Contact</h1>
+        <div class="contact">
+          <i class="contact-email material-icons">email</i>
+          <h2
+            >Email me at
+            <a href="mailto:hossain.anastasia@gmail.com">
+              <strong>hossain.anastasia</strong>@ <strong>gmail</strong>.com</a
+            >
+          </h2>
         </div>
-        <footer>
-            <img src="img/six.svg" />
-        </footer>
+      </div>
+      <footer>
+        <img src="img/six.svg" />
+      </footer>
     </div>
-</body>
-<script src="js/website.js"></script>
-<script src="js/flickity.pkgd.min.js"></script>
-
+  </body>
+  <script src="js/website.js"></script>
+  <script src="js/flickity.pkgd.min.js"></script>
 </html>
