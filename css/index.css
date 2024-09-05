@@ -252,7 +252,7 @@
   margin: 0 auto;
   border-bottom: 1px solid;
 
-  width: 120px;
+  width: 180px;
 
   font-weight: 200;
   color: #ffeddb;
@@ -517,6 +517,10 @@ footer {
   font-style: italic;
 
   text-align: center;
+}
+
+.hehe2 {
+  padding-top: 4rem;
 }
 
 footer img {
