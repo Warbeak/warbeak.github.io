@@ -24,6 +24,10 @@
   bottom: -50px;
 }
 
+.welcome {
+  padding-top: 0vh;
+}
+
 .welcome > div {
   margin-left: -90px;
 
@@ -31,6 +35,10 @@
 }
 .welcome h1 {
   right: 0;
+  bottom: -50px;
+}
+.welcome span:nth-of-type(1) {
+  font-size: 5rem;
 }
 .welcome > div span:nth-of-type(2) {
   margin: 0 1.5rem;
