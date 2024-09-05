@@ -168,7 +168,7 @@
 
 .welcome div span:nth-of-type(1) {
   opacity: 0;
-
+  font-size: 3rem;
   animation: fade-up 0.75s 3s cubic-bezier(0, 0, 0.2, 1) forwards,
     fade-out 0.5s 5s cubic-bezier(0, 0, 0.2, 1) forwards;
 }
@@ -181,7 +181,7 @@
 
 .welcome div span:nth-of-type(3) {
   opacity: 0;
-
+  font-size: 3rem;
   animation: fade-up 0.75s 3.5s cubic-bezier(0, 0, 0.2, 1) forwards;
 }
 
